@@ -1,0 +1,38 @@
+# Données CITECT (binaires volumineux, non versionnés)
+DATA/
+
+# Scripts de synchronisation (config locale, credentials)
+sync/
+
+# Dépendances
+node_modules/
+frontend/node_modules/
+backend/.venv/
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Build frontend
+frontend/dist/
+
+# Environnements
+.env
+*.env.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Claude
+CLAUDE.md
+*.claude/
+
+# Fichiers sensibles / config locale
+backend/app/db.py
